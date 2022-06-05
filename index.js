@@ -12,7 +12,7 @@ function sorter (arrNama, fungsi){
   fungsi(arrNama)
   let ubahUrutan= [];
   while (counter<arrNama.length){
-    ubahUrutan.push(1+counter+" "+arrNama[counter]);
+    ubahUrutan.push(1+counter+"."+arrNama[counter]);
     counter++;
   }
   return ubahUrutan;
